@@ -5,11 +5,3 @@ happy
 neutral
 sad
 surprised
-
-
-
-
-
-
-
-
