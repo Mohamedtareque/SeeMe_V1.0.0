@@ -1,23 +1,24 @@
-
-
-
-
+# =============================================================================
+# Import Libraries
+# =============================================================================
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 import numpy as np
 import tensorflow as tf
-
 import argparse
-
-import numpy as np
-
-
 import cv2
 
-import tensorflow as tf # TF2
+# =============================================================================
+# load Data
+# =============================================================================
 
+"""
+Describtion :- 
+input:- 
+output:- 
 
+"""
 def load_labels(filename):
   with open(filename, 'r') as f:
     return [line.strip() for line in f.readlines()]
